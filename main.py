@@ -42,8 +42,8 @@ while True:
     cv2.fillConvexPoly(trapezoid_frame, trapezoid_bounds, 1)
     road_frame = gray * trapezoid_frame
 
-    # cv2.imshow('Trapezoid', trapezoid_frame * 255)
-    # cv2.imshow('Road', road_frame)
+    #cv2.imshow('Trapezoid', trapezoid_frame * 255)
+    #cv2.imshow('Road', road_frame)
 
     #ex5
     screen_bounds = np.array([(w, 0), (0, 0), (0, h), (w, h)])
